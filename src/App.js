@@ -1,10 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home/Home';
+import Header from './components/Header/Header';
+import ContactUs from './components/ContactUs/ContactUs';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-red-500"> Hi! I am using tailwind</h1>
+    <div className="bg-green-300">
+      <Header></Header>
+      <Home></Home>
+      <ContactUs></ContactUs>
+      <Footer></Footer>
     </div>
   );
 }
